@@ -12,4 +12,9 @@ for i in range(1, n+1):
     trong_Ngay= [i,tien]
     ds.append(trong_Ngay)
     tongTien += tien
+avgTien = tongTien / n
+
 print(ds)
+print(tongTien)
+print(avgTien)
+
