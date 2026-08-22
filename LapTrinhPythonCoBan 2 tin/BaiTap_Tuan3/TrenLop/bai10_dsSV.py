@@ -1,5 +1,3 @@
-from unittest import case
-
 ds = []
 
 def them():
@@ -51,8 +49,8 @@ while True:
     chon = int(input("Nhập lựa chọn: "))
 
     match chon:
-        case 1: xoa()
-        case 2: sua()
-        case 3: xem()
-        case 4: sua()
+        case 1: them()
+        case 2: xoa()
+        case 3: sua()
+        case 4: xem()
         case _: print("Không hợp lệ")
