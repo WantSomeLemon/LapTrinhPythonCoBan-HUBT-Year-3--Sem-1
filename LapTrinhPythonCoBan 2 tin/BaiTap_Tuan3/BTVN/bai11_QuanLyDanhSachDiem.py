@@ -1,5 +1,4 @@
 diem = [7.5, 8, 6.5, 9, 5.5, 8.5]
-
 tong = 0
 demDat = 0
 
@@ -23,7 +22,7 @@ diemGiamDan = sorted(diem, reverse=True)
 
 print(f"""
 Tổng điểm: {tong}
-Điểm trung bình: {trungBinh}
+Điểm trung bình: {trungBinh:.2f}
 Điểm cao nhất: {diemCaoNhat}
 Điểm thấp nhất: {diemThapNhat}
 Số sinh viên đạt: {demDat}
