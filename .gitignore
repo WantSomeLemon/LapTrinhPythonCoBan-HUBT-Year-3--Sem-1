@@ -2,3 +2,5 @@
 .venv
 LapTrinhPythonCoBan 2 tin/.idea
 .idea
+*.rar
+*.zip
